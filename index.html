@@ -24,7 +24,11 @@
 
         var ctx = canvasEl.getContext("2d");
         var game = new ZombieSlayer.Game();
-        new ZombieSlayer.GameView(game, ctx).start();
+        new ZombieSlayer.GameView({
+          game: game,
+          ctx: ctx,
+          gender: "F"
+        }).start();
       })();
     </script>
   </body>
