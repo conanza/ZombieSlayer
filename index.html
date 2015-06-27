@@ -9,7 +9,6 @@
 
     <script type="application/javascript" src="vendor/jquery-1.11.3.js"></script>
 
-
     <script type="application/javascript" src="lib/util.js"></script>
     <script type="application/javascript" src="lib/movingObject.js"></script>
     <script type="application/javascript" src="lib/zombie.js"></script>
@@ -20,8 +19,8 @@
     <script type="application/javascript">
       (function () {
         var canvasEl = document.getElementsByTagName("canvas")[0];
-        canvasEl.width = 1000;
-        canvasEl.height = 1000;
+        canvasEl.width = 800;
+        canvasEl.height = 800;
 
         var ctx = canvasEl.getContext("2d");
         var game = new ZombieSlayer.Game();
