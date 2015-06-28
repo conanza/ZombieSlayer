@@ -20,12 +20,12 @@
     <script type="application/javascript" src="lib/bullet.js"></script>
     <script type="application/javascript" src="lib/poolOfBlood.js"></script>
     <script type="application/javascript" src="lib/skeleton.js"></script>
+    <script type="application/javascript" src="lib/gameover.js"></script>
     <script type="application/javascript" src="lib/game.js"></script>
     <script type="application/javascript" src="lib/gameView.js"></script>
     <script type="application/javascript" src="lib/instructions.js"></script>
     <script type="application/javascript" src="lib/characterSelect.js"></script>
     <script type="application/javascript" src="lib/menuView.js"></script>
-    <script type="application/javascript" src="lib/gameover.js"></script>
 
     <script type="application/javascript">
       (function () {
@@ -34,7 +34,8 @@
         canvasEl.height = 795;
 
         var ctx = canvasEl.getContext("2d");
-        new ZombieSlayer.MenuView({ ctx: ctx }).start();
+        new ZombieSlayer.Gameover({ ctx: ctx }).start();
+        // new ZombieSlayer.MenuView({ ctx: ctx }).start();
       })();
     </script>
   </body>
