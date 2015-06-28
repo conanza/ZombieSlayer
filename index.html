@@ -22,6 +22,7 @@
     <script type="application/javascript" src="lib/skeleton.js"></script>
     <script type="application/javascript" src="lib/game.js"></script>
     <script type="application/javascript" src="lib/gameView.js"></script>
+    <script type="application/javascript" src="lib/characterSelect.js"></script>
     <script type="application/javascript" src="lib/menuView.js"></script>
 
     <script type="application/javascript">
@@ -31,13 +32,7 @@
         canvasEl.height = 795;
 
         var ctx = canvasEl.getContext("2d");
-        // var game = new ZombieSlayer.Game();
-        // new ZombieSlayer.GameView({
-        //   game: game,
-        //   ctx: ctx,
-        //   gender: "F"
-        // }).start();
-        new ZombieSlayer.MenuView({ ctx: ctx, canvas: canvasEl }).start();
+        new ZombieSlayer.MenuView({ ctx: ctx }).start();
       })();
     </script>
   </body>
