@@ -6,9 +6,12 @@
     <link rel="stylesheet" type="text/css" href="./css/zombieslayer.css">
   </head>
   <body>
-    <canvas class="view"></canvas>
+    <div class="container">
+      <canvas class="view"></canvas>
+    </div>
 
     <script type="application/javascript" src="vendor/jquery-1.11.3.js"></script>
+    <script type="application/javascript" src="vendor/CanvasInput.min.js"></script>
 
     <script type="application/javascript" src="lib/util.js"></script>
     <script type="application/javascript" src="lib/movingObject.js"></script>
@@ -19,6 +22,7 @@
     <script type="application/javascript" src="lib/skeleton.js"></script>
     <script type="application/javascript" src="lib/game.js"></script>
     <script type="application/javascript" src="lib/gameView.js"></script>
+    <script type="application/javascript" src="lib/menuView.js"></script>
 
     <script type="application/javascript">
       (function () {
@@ -27,12 +31,13 @@
         canvasEl.height = 795;
 
         var ctx = canvasEl.getContext("2d");
-        var game = new ZombieSlayer.Game();
-        new ZombieSlayer.GameView({
-          game: game,
-          ctx: ctx,
-          gender: "F"
-        }).start();
+        // var game = new ZombieSlayer.Game();
+        // new ZombieSlayer.GameView({
+        //   game: game,
+        //   ctx: ctx,
+        //   gender: "F"
+        // }).start();
+        new ZombieSlayer.MenuView({ ctx: ctx, canvas: canvasEl }).start();
       })();
     </script>
   </body>
