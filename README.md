@@ -22,4 +22,4 @@ ZombieSlayer is a simple browser-based overhead shooter game built entirely with
 * Global leaderboard
 * More stages for increased difficulty! Faster zombies!
 * Powerups and more weapons?!
-
+* Sound effects!
