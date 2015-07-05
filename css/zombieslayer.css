@@ -1,3 +1,8 @@
+@font-face {
+  font-family: eurostile-bold;
+  src: url("../fonts/Eurostile Bold.ttf");
+}
+
 body {
   background-image: url("../assets/pagebg.jpg");
 }
@@ -10,6 +15,7 @@ body {
 }
 
 .view {
+  font-family: eurostile-bold;
   border: 3px solid black;
   display: block;
   width: 100%;
