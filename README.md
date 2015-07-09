@@ -1,7 +1,7 @@
 # ZombieSlayer
 [Click here to play!](https://conanza.github.io/ZombieSlayer)
 
-![screenshot](./assets/screenshot.jpg)
+![screenshot](./assets/zs.gif)
 
 ## Description
 Don't let the world get overrun by zombies!
