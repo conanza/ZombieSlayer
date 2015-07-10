@@ -19,7 +19,7 @@ ZombieSlayer is a simple browser-based overhead shooter game built entirely with
 * Smart/safe spawning for player's character
 * Spawn zombies on the edge of the map
 * Co-op mode
-* Global leaderboard
+* Global leaderboard (utilizing a cloud DB)
 * More stages for increased difficulty! Faster zombies!
 * Powerups and more weapons?!
 * Sound effects!
