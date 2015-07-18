@@ -16,6 +16,18 @@ ZombieSlayer is a simple browser-based overhead shooter game built entirely with
 * Utilizes HTML5 Local Storage to keep a local leaderboard stored on the client's browser
 * Utilizes prototypal inheritance for creating the different types of moving objects
 
+## Patch Notes
+##### 7/18/15
+* Add basic powerups!
+  * Nuke: ![nuke](./assets/nuke.gif)
+  * HP Boost: <img src="./assets/heart.png" width="40">
+
+##### 7/16/15
+* Implement first version of a respawn algorithm for safer respawn for players after death
+
+##### 7/14/15
+* Zombies now spawn on the edge of the map
+
 ## Things to Come
 * [x] Smarter/safer spawning for player's character
 * [x] Spawn zombies on the edge of the map
