@@ -36,4 +36,4 @@ ZombieSlayer is a simple browser-based overhead shooter game built entirely with
 * [ ] More stages for increased difficulty! Faster zombies!
 * [x] Powerups
 * [ ] More weapons?!
-* [ ] Sound effects!
+* [x] Sound effects!
