@@ -18,15 +18,15 @@ ZombieSlayer is a simple browser-based overhead shooter game built entirely with
 
 ## Patch Notes
 ##### 7/18/15
-Add basic powerups!
-* ![nuke](./assets/nuke.gif) **Nuke**: BOOM! Clear the map of all zombies.
-* <img src="./assets/heart.png" width="33"> **HP Boost**: Increase your life if you aren't already at full.
+* Add basic powerups!  
+  ![nuke](./assets/nuke.gif) **Nuke**: BOOM! Clear the map of all zombies.  
+  <img src="./assets/heart.png" width="33"> **HP Boost**: Increase your life if you aren't already at full.
 
 ##### 7/16/15
-Implement first version of a respawn algorithm for safer respawn for players after death
+* Implement first version of a respawn algorithm for safer respawn for players after death
 
 ##### 7/14/15
-Zombies now spawn on the edge of the map
+* Zombies now spawn on the edge of the map
 
 ## Things to Come
 * [x] Smarter/safer spawning for player's character
