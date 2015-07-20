@@ -8,6 +8,7 @@ body {
 }
 
 .container {
+  font-family: eurostile-bold;
   width: 600px;
   height: 600px;
   position: relative;
@@ -20,4 +21,24 @@ body {
   display: block;
   width: 100%;
   position: relative;
+}
+
+.player-name, .not-ready, .player-ready {
+  text-align: center;
+  position: absolute;
+  z-index: 5;
+  width: 30%;
+  color: white;
+  left: 35%;
+  background-color: black;
+  margin-top: 60px;
+}
+
+.not-ready {
+  opacity: 0;
+}
+
+.player-ready {
+  opacity: 1;
+  transition: 0.5s ease-in;
 }
